@@ -54,7 +54,7 @@ router.post('/video', function(req, res){
         }
     });
 });
-
+ 
 //Update vudeo
 router.put('/video/:id', function(req, res){
     console.log('Updating video');
